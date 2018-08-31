@@ -12,8 +12,8 @@ function addEventListeners() {
     getNumberTrivia(1)
   })
 
-  let input = document.querySelector("#input")
-  input.addEventListener('submit', getNumberInput)
+  let input = document.querySelector("input")
+  input.addEventListener('change', getNumberInput)
 
   let allButton = document.querySelector("#all")
   allButton.addEventListener('click', handleAllNumbers)
